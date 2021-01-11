@@ -1,0 +1,8 @@
+[vm-name]
+server ansible_ssh_host=<IP>
+
+[vm-name:vars]
+ansible_connection=ssh
+ansible_ssh_user=<USER>
+ansible_ssh_pass=<PASSWORD>
+ansible_ssh_port=<SSH_PORT>

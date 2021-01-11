@@ -1,0 +1,9 @@
+---
+  - name: Configure vm-name
+    hosts: vm-name
+    gather_facts: false
+    become: true
+    
+    roles:
+      - vm-name
+    
